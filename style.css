@@ -858,13 +858,15 @@ footer {
 }
 
 .experience-tags span {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
     padding: 5px 10px;
-    border: 1px solid #dbe3f0;
+    background: #eef4ff;
+    border: 1px solid #d8e5ff;
     border-radius: 999px;
-    background: #f8fafc;
-    color: #526078;
+    color: #2563eb;
     font-size: 12px;
     font-weight: 600;
     line-height: 1.4;
+    white-space: nowrap;
 }
