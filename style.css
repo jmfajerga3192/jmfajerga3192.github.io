@@ -514,6 +514,27 @@ code {
     padding-bottom: 40px;
 }
 
+.experience-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 12px 0 20px;
+}
+
+.experience-tags span {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 10px;
+    border: 1px solid #dbeafe;
+    border-radius: 6px;
+    background: #eff6ff;
+    color: #2563eb;
+    font-size: 0.72rem;
+    font-weight: 600;
+    line-height: 1.4;
+    white-space: nowrap;
+}
+
 .timeline-date {
     color: #2563eb;
 
@@ -847,26 +868,4 @@ footer {
     .btn {
         width: 100%;
     }
-}
-
-/* Experience technology tags */
-.experience-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin: 14px 0 20px;
-}
-
-.experience-tags span {
-    display: inline-flex;
-    align-items: center;
-    padding: 5px 10px;
-    background: #eef4ff;
-    border: 1px solid #d8e5ff;
-    border-radius: 999px;
-    color: #2563eb;
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 1.4;
-    white-space: nowrap;
 }
